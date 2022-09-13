@@ -8,5 +8,8 @@ RUN /tmp/./setup_juce.sh && rm /tmp/setup_juce.sh
 COPY docker/env/setup_python.sh /tmp/setup_python.sh
 RUN cd /tmp && ./setup_python.sh && rm setup_python.sh
 
+COPY docker/env/setup_python_ext.sh /tmp/setup_python_ext.sh
+RUN cd /tmp && ./setup_python_ext.sh && rm setup_python_ext.sh
+
 COPY docker/env/requirements.txt /tmp/requirements.txt
 RUN pip3 install -r /tmp/requirements.txt && rm /tmp/requirements.txt

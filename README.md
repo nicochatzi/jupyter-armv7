@@ -2,9 +2,10 @@
 
 ## TL;DR
 
-Check out [example/lab/example.html](example/lab/example.html) to see a Jupyter Notebook that
+Check out [example/lab/example.zip](example/lab/example.zip) to see a Jupyter Notebook that
 was generated using C++ code compiled for armv7 (raspberry pi 3)... but on my x86_64 machine!
-Since the HTML is not hosted, just download and view it in a browser.
+The files in the zip are quite large so the .ipynb and .html are zipped. Since the HTML is not hosted,
+just download and view it in a browser.
 
 ## Description
 
